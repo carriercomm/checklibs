@@ -1,0 +1,376 @@
+<?xml version="1.0"?>
+
+<!--
+
+	XML implementing Supported Linux Operating System Versions, Packages, and Patches
+	http://docs.oracle.com/html/E25460_01/r2_fr_requirements.htm#CHDHDHHE
+-->
+
+<libsets>
+
+	<libset>
+		<name>x86_64 Oracle Linux 5 (UL3+)</name>
+		<platform>x86_64</platform>
+		<osversions>
+			<osversion>
+				<name>Red Hat Linux 5 (UL3+)</name>
+				<distribution>Redhat</distribution>
+				<release>5UL3</release>
+			</osversion>
+			<osversion>
+				<name>Oracle Linux 5 (UL3+)</name>
+				<distribution>Oracle</distribution>
+				<release>5UL3</release>
+			</osversion>
+		</osversions>
+		<kernel>2.6.18</kernel>
+		<libs>
+			<lib>
+				<id>binutils-2.17.50.0.6</id>
+				<name>binutils</name>
+				<version>2.17.50.0.6</version>
+				<release/>
+				<architecture/>
+			</lib>
+			<lib>
+				<id>compat-libstdc++-33-3.2.3 for x86-64</id>
+				<name>compat-libstdc++-33</name>
+				<version>3.2.3</version>
+				<release/>
+				<architecture>x86_64</architecture>
+			</lib>
+			<lib>
+				<id>compat-libstdc++-33-3.2.3 for i386</id>
+				<name>compat-libstdc++-33</name>
+				<version></version>
+				<release/>
+				<architecture>i386</architecture>
+			</lib>
+			<lib>
+				<id>elfutils-libelf-0.125</id>
+				<name>elfutils-libelf</name>
+				<version>0.125</version>
+				<release/>
+				<architecture/>
+			</lib>
+			<lib>
+				<id>elfutils-libelf-devel-0.125</id>
+				<name>elfutils-libelf-devel</name>
+				<version>0.125</version>
+				<release/>
+				<architecture/>
+			</lib>
+			<lib>
+				<id>gcc-4.1.1</id>
+				<name>gcc</name>
+				<version>4.1.1</version>
+				<release/>
+				<architecture/>
+			</lib>
+			<lib>
+				<id>gcc-c++-4.1.1</id>
+				<name>gcc-c++</name>
+				<version>4.1.1</version>
+				<release/>
+				<architecture/>
+			</lib>
+			<lib>
+				<id>glibc-2.5-12 for x86_64</id>
+				<name>glibc</name>
+				<version>2.5</version>
+				<release>12</release>
+				<architecture>x86_64</architecture>
+			</lib>
+			<lib>
+				<id>glibc-2.5-12 for i686</id>
+				<name>glibc</name>
+				<version>2.5</version>
+				<release>12</release>
+				<architecture>i686</architecture>
+			</lib>
+			<lib>
+				<id>glibc-common-2.5</id>
+				<name>glibc-common</name>
+				<version>2.5</version>
+				<release/>
+				<architecture/>
+			</lib>
+			<lib>
+				<id>glibc-devel-2.5 for x86-64</id>
+				<name>glibc-devel</name>
+				<version>2.5</version>
+				<release/>
+				<architecture>x86_64</architecture>
+			</lib>
+			<lib>
+				<id>glibc-devel-2.5-12 for i386</id>
+				<name>glibc-devel</name>
+				<version>2.5</version>
+				<release>12</release>
+				<architecture>i386</architecture>
+			</lib>
+			<lib>
+				<id>libaio-0.3.106 for x86_64</id>
+				<name>libaio</name>
+				<version>0.3.106</version>
+				<release/>
+				<architecture>x86_64</architecture>
+			</lib>
+			<lib>
+				<id>libaio-0.3.106 for i386</id>
+				<name>libaio</name>
+				<version>0.3.106</version>
+				<release/>
+				<architecture>i386</architecture>
+			</lib>
+			<lib>
+				<id>libaio-devel-0.3.106</id>
+				<name>libaio-devel</name>
+				<version>0.3.106</version>
+				<release/>
+				<architecture/>
+			</lib>
+			<lib>
+				<id>libgcc-4.1.1 for x86_64</id>
+				<name>libgcc</name>
+				<version>4.1.1</version>
+				<release/>
+				<architecture>x86_64</architecture>
+			</lib>
+			<lib>
+				<id>libgcc-4.1.1 for i386</id>
+				<name>libgcc</name>
+				<version>4.1.1</version>
+				<release/>
+				<architecture>i386</architecture>
+			</lib>
+			<lib>
+				<id>libstdc++-4.1.1 for x86_64</id>
+				<name>libstdc++</name>
+				<version>4.1.1</version>
+				<release/>
+				<architecture>x86_64</architecture>
+			</lib>
+			<lib>
+				<id>libstdc++-4.1.1 for i386</id>
+				<name>libstdc++</name>
+				<version>4.1.1</version>
+				<release/>
+				<architecture>i386</architecture>
+			</lib>
+			<lib>
+				<id>libstdc++-devel-4.1.1</id>
+				<name>libstdc++-devel</name>
+				<version>4.1.1</version>
+				<release/>
+				<architecture/>
+			</lib>
+			<lib>
+				<id>make-3.81</id>
+				<name>make</name>
+				<version>3.81</version>
+				<release/>
+				<architecture/>
+			</lib>
+
+			<lib>
+				<id>openmotif-2.2.3</id>
+				<name>openmotif</name>
+				<version>2.2.3</version>
+			</lib>
+
+			<lib>
+				<id>openmotif22-2.2.3</id>
+				<name>openmotif22</name>
+				<version>2.2.3</version>
+			</lib>
+
+			<lib>
+				<id>redhat-lsb-3.1-12.3.EL.0.2</id>
+				<name>redhat-lsb</name>
+				<version>3.1</version>
+				<release>12.3.EL.0.2</release>
+				<architecture/>
+			</lib>
+			<lib>
+				<id>sysstat-7.0.0</id>
+				<name>sysstat</name>
+				<version>7.0.0</version>
+				<release/>
+				<architecture/>
+			</lib>
+			<lib>
+				<id>xorg-x11-utils</id>
+				<name>xorg-x11-utils</name>
+				<version></version>
+				<release/>
+				<architecture/>
+			</lib>
+	
+		</libs>
+	</libset>
+
+	<libset>
+		<name>x86_64 Oracle/Red Hat Linux 6 (UL1+)</name>
+		<platform>x86_64</platform>
+		<osversions>
+			<osversion>
+				<name>Red Hat Linux 6 (UL1+)</name>
+				<distribution>Redhat</distribution>
+				<release>6UL1</release>
+			</osversion>
+			<osversion>
+				<name>Oracle Linux 6 (UL1+)</name>
+				<distribution>Oracle</distribution>
+				<release>6UL1</release>
+			</osversion>
+		</osversions>
+
+		<kernel>2.6.18-100.28.5.el6</kernel>
+		<libs>
+			<lib>
+				<id>binutils-2.20.51.0.2-5.28.el6</id>
+				<name>binutils</name>
+				<version>2.20.51.0.2</version>
+				<release>5.28.el6</release>
+				<architecture/>
+			</lib>
+			<lib>
+				<id>compat-libcap1-1.10-1</id>
+				<name>compat-libcap1</name>
+				<version>1.10</version>
+				<release>1</release>
+			</lib>
+			<lib>
+				<id>compat-libstdc++-33-3.2.3-69.el6 for x86_64</id>
+				<name>compat-libstdc++-33</name>
+				<version>3.2.3</version>
+				<release>69.el6</release>
+				<architecture>x86_64</architecture>
+			</lib>
+			<lib>
+				<id>compat-libstdc++-33-3.2.3-69.el6 for i686</id>
+				<name>compat-libstdc++-33</name>
+				<version>3.2.3</version>
+				<release>69.el6</release>
+				<architecture>i686</architecture>
+			</lib>
+			<lib>
+				<id>gcc-4.4.4-13.el6</id>
+				<name>gcc</name>
+				<version>4.4.4</version>
+				<release>13.el6</release>
+			</lib>
+			<lib>
+				<id>gcc-c++-4.4.4-13.el6</id>
+				<name>gcc-c++</name>
+				<version>4.4.4</version>
+				<release>13.el6</release>
+			</lib>
+			<lib>
+				<id>glibc-2.12-1.7.el6 for x86_64</id>
+				<name>glibc</name>
+				<version>2.12</version>
+				<release>1.7.el6</release>
+				<architecture>x86_64</architecture>
+			</lib>
+			<lib>
+				<id>glibc-2.12-1.7.el6 for i686</id>
+				<name>glibc</name>
+				<version>2.12</version>
+				<release>1.7.el6</release>
+				<architecture>i686</architecture>
+			</lib>
+			<lib>
+				<id>glibc-devel-2.12-1.7.el6 for i686</id>
+				<name>glibc-devel</name>
+				<version>2.12</version>
+				<release>1.7.el6</release>
+				<architecture>i686</architecture>
+			</lib>
+			<lib>
+				<id>libaio-0.3.107-10.el6</id>
+				<name>libaio</name>
+				<version>0.3.107</version>
+				<release>10.el6</release>
+			</lib>
+			<lib>
+				<id>libaio-devel-0.3.107-10.el6</id>
+				<name>libaio-devel</name>
+				<version>0.3.107</version>
+				<release>10.el6</release>
+			</lib>
+			<lib>
+				<id>libgcc-4.4.4-13.el6</id>
+				<name>libgcc</name>
+				<version>4.4.4</version>
+				<release>13.el6</release>
+			</lib>
+			<lib>
+				<id>libstdc++-4.4.4-13.el6 for x86_64</id>
+				<name>libstdc++</name>
+				<version>4.4.4</version>
+				<release>13.el6</release>
+				<architecture>x86_64</architecture>
+			</lib>
+			<lib>
+				<id>libstdc++-4.4.4-13.el6 for i686</id>
+				<name>libstdc++</name>
+				<version>4.4.4</version>
+				<release>13.el6</release>
+				<architecture>i686</architecture>
+			</lib>
+			<lib>
+				<id>libstdc++-devel-4.4.4-13.el6</id>
+				<name>libstdc++-devel</name>
+				<version>4.4.4</version>
+				<release>13.el6</release>
+			</lib>
+			<lib>
+				<id>libXext for i686</id>
+				<name>libXext</name>
+				<architecture>i686</architecture>
+			</lib>
+			<lib>
+				<id>libXtst for i686</id>
+				<name>libXtst</name>
+				<architecture>i686</architecture>
+			</lib>
+			<lib>
+				<id>openmotif-2.2.3 for x86_64</id>
+				<name>openmotif</name>
+				<version>2.2.3</version>
+				<architecture>x86_64</architecture>
+			</lib>
+			<lib>
+				<id>openmotif22-2.2.3 for x86_64</id>
+				<name>openmotif22</name>
+				<version>2.2.3</version>
+				<architecture>x86_64</architecture>
+			</lib>
+
+			<lib>
+				<id>redhat-lsb-core-4.0-7.el6 for x86_64</id>
+				<name>redhat-lsb-core</name>
+				<version>4.0</version>
+				<release>7.el6</release>
+				<architecture>x86_64</architecture>
+			</lib>
+			<lib>
+				<id>sysstat-9.0.4-11.el6</id>
+				<name>sysstat</name>
+				<version>9.0.4</version>
+				<release>11.el6</release>
+			</lib>
+			<lib>
+				<id>uln-internal-setup-1.0.1-1.el6</id>
+				<name>uln-internal-setup</name>
+				<version>1.0.1</version>
+				<release>1.el6</release>
+			</lib>
+	
+		</libs>
+	</libset>
+
+</libsets>
+
